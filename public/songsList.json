@@ -1,0 +1,64 @@
+{
+  "songs": [
+    {
+      "title": "title 1",
+      "author": "author 1",
+      "duration": "4:30",
+      "id": "song-1"
+    },
+    {
+      "title": "title 2",
+      "author": "author 2",
+      "duration": "3:30",
+      "id": "song-2"
+    },
+    {
+      "title": "title 3",
+      "author": "author 3",
+      "duration": "6:30",
+      "id": "song-3"
+    },
+    {
+      "title": "title 4",
+      "author": "author 4",
+      "duration": "4:20",
+      "id": "song-4"
+    },
+    {
+      "title": "title 5",
+      "author": "author 5",
+      "duration": "2:40",
+      "id": "song-5"
+    },
+    {
+      "title": "title 6",
+      "author": "author 6",
+      "duration": "4:25",
+      "id": "song-6"
+    },
+    {
+      "title": "title 7",
+      "author": "author 7",
+      "duration": "6:22",
+      "id": "song-7"
+    },
+    {
+      "title": "title 8",
+      "author": "author 8",
+      "duration": "3:52",
+      "id": "song-8"
+    },
+    {
+      "title": "title 9",
+      "author": "author 9",
+      "duration": "4:31",
+      "id": "song-9"
+    },
+    {
+      "title": "title 10",
+      "author": "author 10",
+      "duration": "2:33",
+      "id": "song-1-"
+    }
+  ]
+}

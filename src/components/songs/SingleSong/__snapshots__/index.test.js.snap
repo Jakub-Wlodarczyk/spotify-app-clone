@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleSong component should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SingleSong
+    playlists={
+      Array [
+        Object {
+          "name": "playlist",
+          "songs": Array [
+            "song1",
+            "song2",
+          ],
+        },
+      ]
+    }
+    song={
+      Object {
+        "author": "author 1",
+        "duration": "4:30",
+        "title": "title 1",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p>
+          <b>
+            Song title:
+          </b>
+           
+          title 1
+        </p>,
+        <p>
+          <b>
+            Song author:
+          </b>
+           
+          author 1
+        </p>,
+        <p>
+          <b>
+            Song duration:
+          </b>
+           
+          4:30
+        </p>,
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Add To Playlist
+        </button>,
+        false,
+        false,
+      ],
+      "className": "single-song",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <b>
+              Song title:
+            </b>,
+            " ",
+            "title 1",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Song title:",
+            },
+            "ref": null,
+            "rendered": "Song title:",
+            "type": "b",
+          },
+          " ",
+          "title 1",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <b>
+              Song author:
+            </b>,
+            " ",
+            "author 1",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Song author:",
+            },
+            "ref": null,
+            "rendered": "Song author:",
+            "type": "b",
+          },
+          " ",
+          "author 1",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <b>
+              Song duration:
+            </b>,
+            " ",
+            "4:30",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Song duration:",
+            },
+            "ref": null,
+            "rendered": "Song duration:",
+            "type": "b",
+          },
+          " ",
+          "4:30",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add To Playlist",
+          "onClick": [Function],
+          "type": "button",
+        },
+        "ref": null,
+        "rendered": "Add To Playlist",
+        "type": "button",
+      },
+      false,
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p>
+            <b>
+              Song title:
+            </b>
+             
+            title 1
+          </p>,
+          <p>
+            <b>
+              Song author:
+            </b>
+             
+            author 1
+          </p>,
+          <p>
+            <b>
+              Song duration:
+            </b>
+             
+            4:30
+          </p>,
+          <button
+            onClick={[Function]}
+            type="button"
+          >
+            Add To Playlist
+          </button>,
+          false,
+          false,
+        ],
+        "className": "single-song",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <b>
+                Song title:
+              </b>,
+              " ",
+              "title 1",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Song title:",
+              },
+              "ref": null,
+              "rendered": "Song title:",
+              "type": "b",
+            },
+            " ",
+            "title 1",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <b>
+                Song author:
+              </b>,
+              " ",
+              "author 1",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Song author:",
+              },
+              "ref": null,
+              "rendered": "Song author:",
+              "type": "b",
+            },
+            " ",
+            "author 1",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <b>
+                Song duration:
+              </b>,
+              " ",
+              "4:30",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Song duration:",
+              },
+              "ref": null,
+              "rendered": "Song duration:",
+              "type": "b",
+            },
+            " ",
+            "4:30",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Add To Playlist",
+            "onClick": [Function],
+            "type": "button",
+          },
+          "ref": null,
+          "rendered": "Add To Playlist",
+          "type": "button",
+        },
+        false,
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
